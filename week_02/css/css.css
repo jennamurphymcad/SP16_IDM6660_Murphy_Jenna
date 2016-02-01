@@ -1,0 +1,211 @@
+/* SIMPLE RESET */
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	margin:0;
+	padding:0;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+/* FONT STYLES */
+
+html, aside ol li:nth-of-type(2) {
+	font-family: 'Merriweather', serif;
+	font-size: normal 100%;
+	line-height: 1.125em;
+}
+
+h1, h2, h3, h4, h5, h6, aside ol {
+	font-family: 'Oswald', sans-serif;
+}
+
+/* STUDENT STYLES */
+
+html {
+  margin: 1.04166667% 0%;
+}
+
+/* CSS Styling for body */
+body, body a {
+  color: #333333;
+}
+
+body {
+  max-width: 96%;
+  margin: 0 auto;
+}
+
+body img, header, section article h2 span:nth-child(1) {
+  max-width: 100%;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* CSS Styling for header */
+
+header {
+  background-color: #eeeeee;
+  padding: 10.4166667% 5.20833333%;   /*padding: 100px 50px;*/
+  margin-bottom: 5.20833333%;   /*margin-bottom: 50px;*/
+}
+
+header nav, footer nav ul {
+  list-style: none;
+}
+
+header nav, header h1, aside {
+  text-align: center;
+}
+
+header nav {
+  padding-top: 4.16666667%;  /*padding-top: 40px;*/
+}
+
+header nav li {
+  display: inline;
+  padding: 1.04166667%;   /*padding: 10px;*/
+  color: #303030;
+}
+
+header h1, section h1, article h2, aside h1 {
+  line-height: 100%;
+}
+
+header h1 {
+  font-size: 430%;  /*font-size: 4.3em;*/
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* CSS Styling for main section */
+
+section, footer nav ul, footer ol:nth-of-type(1) {
+  float: left;
+}
+
+section {
+  max-width: 75%;
+  padding-right: 14.8809524%;  /*padding-right: 110px;*/
+}
+
+section article {
+  padding-bottom: 9.67261905%;  /*padding-bottom: 65px;*/
+}
+
+section h1 {
+  font-size: 280%;  /*font-size: 2.8em;*/
+  text-align: left;  /*line-height: 1.0em;*/
+  padding: 2.97619048% 14.8809524% 7.44047619% 0%;  /*padding:20px 100px 50px 0px;*/
+}
+
+article h2 {
+  font-size: 250%;  /*font-size: 2.5em;*/
+  padding-bottom: 3.55871886%; /*20 / 562*/
+}
+
+section article h2 {
+  position: relative;
+  width: 100%;
+}
+
+section article h2 span:nth-child(1), section h2 span:nth-child(2) {
+  font-size: 70%;
+}
+
+section article h2 span:nth-child(1) {
+  color: #FFF;
+  position: absolute;
+  left: 2.66903915%;  /*left: 15px;*/
+  bottom: -158.132530%;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 3.42261905% 2.23214286%;  /*padding: 23px 15px;*/
+  -webkit-box-shadow: 4px 5px 15px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 4px 5px 15px 0px rgba(0,0,0,0.6);
+  box-shadow: 4px 5px 15px 0px rgba(0,0,0,0.6);
+  -webkit-transform: rotate(-20deg);
+  -moz-transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+}
+
+section h2 span:nth-child(2), aside ol li, section article h2 span:nth-child(1) {
+    font-weight: 300;
+}
+
+section p {
+  padding: 1.77935943%;  /*padding: 10px 0px;*/
+}
+
+/* CSS Styling for aside */
+
+aside, aside ol li img, footer ol:nth-of-type(2) {
+  float: right;
+}
+
+aside {
+  max-width: 25%;
+}
+
+aside ol li {
+  clear: right;
+}
+
+aside ol li img {
+  padding: 3.47222222% 0% 17.3611111% 0%;    /*padding: 10px 0px 50px 0px;*/
+}
+
+aside h1 {
+  padding-bottom: 3.47222222%;  /*padding-bottom: 10px;*/
+}
+
+aside ol li:nth-of-type(2) {
+  font-size: 60%;  /*font-size: .6em;*/
+  padding-bottom: 5.20833333%;  /*padding-bottom: 15px;*/
+}
+
+/* CSS for Footer Styling */
+
+footer {
+  clear:both;
+}
+
+footer h1 {
+  font-size: 120%;  /*font-size: 1.2em;*/
+  padding-bottom: .52083333%;  /*padding-bottom: 5px;*/
+}
+
+footer p {
+  font-size: 80%;  /*font-size: .8em;*/
+  padding-bottom: 3.125%;  /*padding-bottom: 30px;*/
+}
+
+footer ol:nth-of-type(1) h2, footer ol:nth-of-type(2) h2  {
+  padding-bottom: 3.12531253%;  /*padding-bottom: 10px;*/
+}
+
+aside ol li, footer ol:nth-of-type(1), footer ol:nth-of-type(2) {
+  list-style-position: inside;
+}
+
+footer nav ul, footer ol:nth-of-type(1), footer ol:nth-of-type(2) {
+    width: 33.33%;
+}
+
+footer::after {
+  clear: both;
+}
