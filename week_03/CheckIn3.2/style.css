@@ -1,0 +1,149 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.5em;
+}
+
+body {
+  font-size: 100%;
+  margin: 0 auto;
+  width: 75%;
+  color: #2f2f2f;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #2f2f2f;
+}
+
+a:hover {
+  color: #87c3c3;
+}
+
+header {
+  padding-top: 5%;
+  margin-bottom: 5.20833333%;   /*margin-bottom: 50px;*/
+}
+
+header h1, section h2 {
+  font-family: 'comfortaa', cursive;
+  font-weight: 700;
+}
+
+section h2 {
+  text-align: center;
+}
+
+header nav {
+  list-style: none;
+}
+
+header nav, header h1 {
+  text-align: center;
+}
+
+header nav li {
+  display: inline;
+  padding: 1%;   /*padding: 10px;*/
+}
+
+section {
+  float: left;
+  width: 100%;
+}
+blockquote {
+  float: right;
+  width: 30%;
+  font-style: italic;
+  font-size: 96%;
+  background-color: #f2f2f2;
+  padding: 5%;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+@media screen and (max-width: 580px) {
+  body, header, header nav, header nav ul, header nav ul li {
+    margin: 0;
+  }
+
+  body {
+    width: 95%;
+    padding: 2.5%;
+  }
+
+  header, header nav, header nav ul, header nav ul li  {
+    padding: 0;
+  }
+
+  header nav li a {
+    text-decoration: none;
+    display: block;
+    background-color: #f2f2f2;
+    padding: 1.2%;
+    margin-bottom: .8%;
+  }
+
+  header nav li a:hover {
+    background-color: #2f2f2f;
+    color: #f2f2f2;
+  }
+
+  h2 {
+    font-size: 103%;
+    padding-top: 7%;
+  }
+
+  blockquote {
+    font-style: italic;
+    font-size: 96%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header nav, header nav ul {
+    padding: 0;
+  }
+
+  header nav li a {
+    font-size: 95%;
+  }
+
+  h2 {
+    font-size: 103%;
+  }
+
+  body section p, blockquote  {
+    font-weight: 300;
+  }
+
+  blockquote  {
+    justify-content: center;
+    width: 75%;
+    float: none;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  html {
+    font-size: 115%;
+  }
+
+  body {
+    width: 60%;
+  }
+}
