@@ -1,0 +1,89 @@
+@media screen and (min-width: 700px) {
+
+ body, section, footer {
+    max-width: 1024px;
+    margin: 0 auto;
+
+  }
+  header {
+    a#phone {
+      display:none;
+     }
+
+    #logo {
+      float: left;
+      width: 20%;
+      max-height: 240px;
+      max-width: 240px;
+    }
+
+   #menu-btn {
+     display: none;
+    }
+
+  nav.responsive-menu  {
+    display: inline-block;
+    width: 80%;
+    // margin-top: 1.8828125%;
+      ul {
+        li {
+          float: left;
+          background-color: #FFF;
+          padding: 3%;
+          // margin-right: 5%;
+            a {
+              font-size: .8em;
+          }
+        }
+      }
+    }
+  }
+
+  section {
+    clear: both;
+    h1 {
+      font-size: 1.75em;
+    }
+
+article.services {
+  margin: 0;
+  padding: .97656625%;
+
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+   figure:nth-child(odd) {
+       float: left;
+     }
+
+  figure:nth-child(odd), figure:nth-child(even) {
+      width: 50%;
+      display: inline-block;
+      padding: .48828125%;
+    }
+  }
+}
+
+  footer {
+    p {
+      margin-top: 0;
+      padding-top: 4.8828125%;
+    }
+    input {
+      width: 60%;
+    }
+      nav.social {
+      ul{
+        li {
+          img {
+            width: 5%;
+          }
+        }
+      }
+
+    }
+
+
+    }
+  }

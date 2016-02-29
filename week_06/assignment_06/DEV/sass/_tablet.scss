@@ -1,0 +1,74 @@
+@media screen and (min-width: 480px) {
+
+header {
+  padding: 2.85714286%;
+
+  a#phone {
+     img {
+       max-width: 30%;
+       max-width: 30%;
+     }
+  }
+
+  #logo {
+    max-height: 25%;
+    max-width: 25%;
+    padding-left: 2.85714286%;
+  }
+
+  #menu-btn {
+    max-width: 10%;
+    max-height: 10%;
+  }
+}
+
+section {
+  h1 {
+    font-size: 1.75em;
+  }
+  article.mission {
+    P {
+      font-size: 1.3em;
+      text-align: center;
+      margin: 5.71428571%;
+    }
+  }
+
+  article.services {
+    figure {
+      display:block;
+      margin-left: 5.71428571%;
+      margin-right: 5.71428571%;
+
+      figcaption {
+        top: 10.4166667%;
+        h2 {
+          text-shadow: 2px 2px $black;
+          font-size: 3.5em;
+          }
+          p {
+            font-size: 2.2em;
+            span {
+              font-size: .4em;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  input {
+    width: 85%;
+  }
+    nav.social {
+    ul{
+      li {
+        img {
+          width: 7%;
+          }
+        }
+      }
+    }
+  }
+}
