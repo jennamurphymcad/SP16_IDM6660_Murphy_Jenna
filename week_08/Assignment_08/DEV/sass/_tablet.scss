@@ -1,0 +1,60 @@
+@media screen and (min-width: 530px) {
+
+  main {
+
+    section {
+
+      figure {
+
+        img {
+          width: 90%;
+          margin-left: 3.52941176%;
+          padding-bottom: 0;
+        }
+
+        figcaption {
+          top: 12.9411765%;
+
+          h1 {
+            font-size: 2.5em;
+          }
+
+          h2 {
+            font-weight: 400;
+            font-style: italic;
+          }
+
+          p {
+            display: block;
+            font-size: 1.8em;
+            padding-bottom: 11.1764706%;
+          }
+        }
+      }
+    }
+
+    article {
+
+      margin-top: 0;
+
+      h1, h2 {
+      }
+
+      p {
+        padding-left: 5.29411765%;
+        padding-right: 3.52941176%;
+        font-size: 1.3em;
+      }
+
+      a {
+          margin: 0 5.88235294% 3.52941176% 5.88235294%;
+      }
+
+      img {
+          padding-bottom: 3.52941176%;
+          width: 75%;
+      }
+
+    }
+    }
+  }

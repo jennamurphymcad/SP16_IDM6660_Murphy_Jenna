@@ -1,0 +1,109 @@
+@media screen and (min-width: 850px) {
+
+    body {
+    }
+
+    header {
+
+      h1 {
+      }
+
+      h2 {
+      }
+
+      nav {
+
+         ul {
+           padding: 15px;
+
+           li {
+             display: inline;
+             margin: 0;
+             padding: 5px;
+             background-image: none;
+
+             a {
+              color: $pink;
+              font-weight: 300;
+             }
+           }
+         }
+       }
+     }
+
+    main {
+      -webkit-box-shadow: 0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+      -moz-box-shadow:    0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+      box-shadow:         0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+      max-width: 960px;
+      margin: 0 auto;
+      padding-bottom: 5.20833333%;
+      section {
+        margin-top: -2.08333333%;
+        figure {
+
+          img {
+            max-width: 75%;
+            padding-left: 20.8333333%;
+          }
+          figcaption {
+            top: 200px;
+
+            h1 {
+            }
+
+            p {
+            }
+
+            a {
+            }
+          }
+        }
+      }
+
+
+      article {
+        clear: both;
+        text-align: left;
+
+        h1, h2, p{
+          float: left;
+          clear: right;
+          width: 55%;
+          display: block;
+        }
+
+        h1 {
+          padding-top: 3.64583333%;;
+          margin: 0;
+        }
+
+        h1, h2 {
+          padding-left: 3.125%;
+        }
+
+        p {
+          padding-left: 3.125%;
+        }
+
+        a {
+          clear: both;
+          margin: 0 31.25% 4.16666667% 31.25%;
+        }
+
+        img {
+          width: 35%;
+          padding-top: 3.64583333%;
+        }
+
+      }
+
+      article:first-of-type {
+        margin-top: 0;
+      }
+    }
+
+    footer {
+      clear: both;
+    }
+  }
