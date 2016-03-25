@@ -6,7 +6,6 @@
     color: $black;
     margin: 0 auto;
     padding: 0;
-
   }
 
   a:hover, a:focus, a:active {
@@ -17,13 +16,6 @@
     text-align: center;
     background-image: url(../img/darkTextureBg.jpg);
     background-repeat: repeat-x;
-    -webkit-box-shadow: 0px -1px 15px 0px rgba(50, 50, 50, 0.44);
-    -moz-box-shadow:    0px -1px 15px 0px rgba(50, 50, 50, 0.44);
-    box-shadow:         0px -1px 15px 0px rgba(50, 50, 50, 0.44);
-
-    .no-boxshadow header {
-      border-bottom: solid $black 1px;
-    }
 
     h1 {
       color: $cream;
@@ -57,10 +49,8 @@
              margin: 0;
              width: 100%;
              padding: 0.94339623%;
-            background-image: url(../img/lightTextureBg.jpg);
-            -webkit-box-shadow: 0px -1px 13px 0px rgba(50, 50, 50, 0.44);
-            -moz-box-shadow:    0px -1px 13px 0px rgba(50, 50, 50, 0.44);
-            box-shadow:         0px -1px 13px 0px rgba(50, 50, 50, 0.44);
+             background-image: url(../img/lightTextureBg.jpg);
+             background-repeat: repeat-x;
 
              a {
                width: 100%;
@@ -71,15 +61,47 @@
                text-decoration: none;
              }
            }
-
-           .no-boxshadow .box li {
-             border-bottom: 1px solid $black;
-           }
          }
       }
   }
 
+  .boxshadow header {
+    -webkit-box-shadow: 0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow:    0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+    box-shadow:         0px -1px 15px 0px rgba(50, 50, 50, 0.44);
 
+  }
+
+  .no-boxshadow header {
+    border-bottom: solid $black 1px;
+  }
+
+  .boxshadow header nav ul li {
+    -webkit-box-shadow: 0px -1px 13px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow:    0px -1px 13px 0px rgba(50, 50, 50, 0.44);
+    box-shadow:         0px -1px 13px 0px rgba(50, 50, 50, 0.44);
+  }
+
+  .no-boxshadow .box header nav ul li {
+    border-bottom: 1px solid $black;
+  }
+
+  .touchevents header {
+    width: 100%;
+    overflow: hidden;
+    
+    nav ul li {
+      padding: 6.94339623%;
+
+    a {
+      padding: 5.83018868%;
+    }
+  }
+}
+
+  .bgrepeatspace header {
+    background-color: $black;
+  }
 
   main {
 
@@ -178,4 +200,7 @@ footer {
     padding: 10.3773585%;
     margin: 0;
 }
+}
+.bgrepeatspace footer {
+  background-color: $black;
 }
