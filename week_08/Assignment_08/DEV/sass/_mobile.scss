@@ -21,6 +21,10 @@
     -moz-box-shadow:    0px -1px 15px 0px rgba(50, 50, 50, 0.44);
     box-shadow:         0px -1px 15px 0px rgba(50, 50, 50, 0.44);
 
+    .no-boxshadow header {
+      border-bottom: solid $black 1px;
+    }
+
     h1 {
       color: $cream;
       font-weight: bold;
@@ -66,6 +70,10 @@
                font-size: 1.2em;
                text-decoration: none;
              }
+           }
+
+           .no-boxshadow .box li {
+             border-bottom: 1px solid $black;
            }
          }
       }
