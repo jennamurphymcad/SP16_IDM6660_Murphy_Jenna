@@ -1,0 +1,226 @@
+@media screen and (min-width: 0px) {
+
+  body {
+    font-family: $font;
+    font-weight: 400;
+    color: $black;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  a:hover, a:focus, a:active {
+   color: $yellow;
+ }
+
+  header {
+    text-align: center;
+    background-image: url(../img/darkTextureBg.jpg);
+    background-repeat: repeat-x;
+
+    h1 {
+      color: $cream;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 2.83018868% 0 0 0;
+      margin: 0;
+      font-size: 1.8em;
+        }
+
+    h2 {
+      color: $cream;
+      font-weight: 300;
+      padding: 0 0 2.83018868% 0;
+      margin: 0;
+      letter-spacing: 1.5px;
+      font-size: 1.2em;
+    }
+
+      nav {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+
+         ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+
+           li {
+             margin: 0;
+             width: 100%;
+             padding: 0.94339623%;
+             background-image: url(../img/lightTextureBg2.jpg);
+             background-repeat: repeat-x;
+
+             a {
+               width: 100%;
+               padding: 2.83018868%;
+               color: $black;
+               font-weight: 700;
+               font-size: 1.2em;
+               text-decoration: none;
+
+             }
+
+             a:hover, a:focus, a:active {
+               color: $pink;
+             }
+           }
+         }
+      }
+  }
+
+  .boxshadow header {
+    -webkit-box-shadow: 0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow:    0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+    box-shadow:         0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+
+  }
+
+  .no-boxshadow header {
+    border-bottom: #ededed 1px solid;
+  }
+
+  .boxshadow header nav ul li {
+    -webkit-box-shadow: 0px -1px 13px 0px rgba(50, 50, 50, 0.44);
+    -moz-box-shadow:    0px -1px 13px 0px rgba(50, 50, 50, 0.44);
+    box-shadow:         0px -1px 13px 0px rgba(50, 50, 50, 0.44);
+  }
+
+  .no-boxshadow header nav ul li {
+    border-bottom: #ededed 1px solid;
+  }
+
+  .touchevents header {
+    
+    nav ul li {
+      padding: 4.94339623% 1%;
+
+    a {
+      padding: 5.83018868%;
+    }
+  }
+}
+
+  main {
+
+    section {
+
+      figure {
+        position: relative;
+
+        img {
+          width: 100%;
+          opacity: 0.20;
+          filter: alpha(opacity=20);
+        }
+
+        figcaption {
+          position: absolute;
+          bottom: 0px;
+          top: 15.0943396%;
+          width: 100%;
+          text-align: center;
+
+          h1 {
+            font-weight: 700;
+            font-size: 2.3em;
+          }
+
+          h2 {
+            font-weight: 300;
+            color: $pink;
+            font-size: 2.0em;
+          }
+
+          p {
+            display: none;
+            font-size: 1.5em;
+            font-weight: 300;
+            padding-bottom: 13.2075472%;
+          }
+
+        }
+      }
+    }
+
+    article:first-of-type {
+      border-top: #ededed 1px solid;
+    }
+
+    article {
+      width: 100%;
+      text-align: center;
+      padding-top: 8.88679245%;
+
+      h1 {
+        font-weight: 700;
+        font-size: 1.8em;
+      }
+
+      h2 {
+        font-size: 1.4em;
+        font-style: italic;
+        color: $pink;
+        padding: 0;
+      }
+
+      a {
+        display: block;
+        background-color: $gold;
+        padding: 4.83018868%;
+        font-size: 1.3em;
+        color: $cream;
+        font-weight: 300;
+        text-align: center;
+        text-decoration: none;
+        margin-bottom: 6.1509434%;
+      }
+
+      p {
+        font-size: 1.2em;
+        font-weight: 300;
+        padding: 2.83018868% 0 6.54716981% 3.77358491%;
+        text-align: left;
+      }
+
+      img {
+        width: 100%;
+        -webkit-box-shadow: 0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+        -moz-box-shadow:    0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+        box-shadow:         0px -1px 15px 0px rgba(50, 50, 50, 0.44);
+      }
+    }
+  }
+
+
+footer {
+  background-image: url(../img/darkTextureBg.jpg);
+  margin: 0;
+  color: #FFF;
+  font-weight: 300;
+  text-align: center;
+  p {
+    padding: 10.3773585%;
+    margin: 0;
+  }
+}
+
+img.imageMobile {
+  display: block !important;
+}
+
+img.imageMain {
+  display: none !important;
+}
+
+.scrollToTop{
+  max-width: 50%;
+  position:fixed;
+  bottom: 75px;
+  right: 10px;
+  display:none;
+  opacity: 0.60;
+  filter: alpha(opacity=60);
+}
+}
