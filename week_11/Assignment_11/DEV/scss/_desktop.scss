@@ -1,0 +1,127 @@
+@media screen and (min-width: 785px) {
+
+    html {
+    }
+
+    body {
+      max-width: 900px;
+    }
+
+
+    header {
+      // padding: 3.28571429%;
+      // margin:0;
+      h1 {
+        // font-size: 1.5em;
+        // // padding-left: 2.85714286%;
+        text-align: left;
+      }
+    }
+
+
+    h3 {
+      // font-size: 2.3em;
+    }
+
+        .callout:nth-of-type(1) {
+
+        }
+
+        .callout:nth-of-type(2) {
+
+        }
+
+        .callout:nth-of-type(3) {
+
+        }
+
+
+    main {
+
+      section {
+          h2 {
+            padding-top: 6.666666667%;
+          }
+          // p {
+          //   // font-size: 1.6em;
+          //   // padding: 15px 30px 45px 30px;
+          // }
+          // a {
+          //   padding: 25px;
+          // }
+          // a:hover {
+          // }
+      }
+
+      article {
+        padding: 1.666666667% 2.77777777%;
+        clear: both;
+
+        img {
+          width: 3.8888888888%;
+          display: inline-block;
+          float: left;
+          max-width: 10%;
+        }
+
+        h3 {
+          display: inline-block;
+          text-align: left;
+          float:left;
+          padding: 1.1111111% 0 0 1.1111111%;
+          max-width: 30%;
+        }
+          ul {
+            max-width: 60%;
+            float: right;
+            li {
+              h4 {
+              }
+              h5 {
+
+              }
+              ul {
+
+              }
+            }
+          }
+        }
+
+    article:nth-of-type(1) {
+    // background-color: #f2f2f2;
+    background-color: white;
+    // border-bottom: 1px #d9d9d9 solid;
+        h3 {
+          color: $green;
+        }
+    }
+    article:nth-of-type(2) {
+      background-color: white;
+        h3 {
+          color: $turquoise;
+          // display: block;
+        }
+        ul {
+          display:block;
+          max-width: 60%;
+          float: left;
+          margin-left:  .5555555%;
+          h4 {
+            color: $salmon;
+          }
+          ul {
+            margin-left: 0px;
+            padding: 0;
+          }
+
+        }
+      }
+
+      }
+
+  footer {
+    padding-top: 3.333333333%;
+    clear: left;
+  }
+
+}

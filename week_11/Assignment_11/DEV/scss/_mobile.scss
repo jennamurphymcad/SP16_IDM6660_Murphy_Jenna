@@ -1,0 +1,146 @@
+
+@media screen and (min-width: 0px) {
+
+html {
+  // background-color: #f2f2f2;
+}
+
+body {
+     font-family: $bodyFont;
+     margin: 0 auto;
+     width: 100%;
+    color: $black;
+    font-size: large;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1, h2, h3 {
+  font-family: $headerFont;
+}
+
+header {
+  padding: 3.28571429%;
+  margin:0;
+  h1 {
+    font-size: 1.5em;
+    // padding-left: 2.85714286%;
+    text-align: center;
+  }
+}
+
+
+h2 {
+  font-size: 3em;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 2.2em;
+  margin: 0;
+  padding: 0;
+}
+
+    .callout:nth-of-type(1) {
+      background-color: $blue;
+      padding: 0 .56603774%;
+    }
+
+    .callout:nth-of-type(2) {
+      background-color: $ochre;
+      padding: 0 .56603774%;
+    }
+
+    .callout:nth-of-type(3) {
+      background-color: $green;
+      padding: 0 .56603774%;
+    }
+
+
+main {
+
+  section {
+    margin-bottom: 13.2075472%;
+    padding: 2.83018868%;
+    text-align: center;
+      h2 {
+        font-size: 2em;
+      }
+      p {
+        padding: 2.83018868% 0 5.66037736% 0;
+      }
+      a {
+        color: #f2f2f2;
+        background-color: $salmon;
+        padding: 3.77358491%;
+        text-decoration: none;
+      }
+      a:hover {
+        // color: $blue;
+        text-decoration: underline;
+        -webkit-box-shadow: 0px -1px 13px 0px rgba(50, 50, 50, 0.30);
+        -moz-box-shadow:    0px -1px 13px 0px rgba(50, 50, 50, 0.30);
+        box-shadow:         0px -1px 13px 0px rgba(50, 50, 50, 0.30);
+      }
+
+  }
+
+  article {
+    padding: 0;
+    margin: 0;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 9.43396226%;
+      padding-top: 4.71698113%;
+    }
+    h3 {
+      text-align: center;
+    }
+      ul {
+        list-style-type: none;
+        margin-top:0;
+        margin-bottom: 0;
+        padding: 0 4.71698113% 4.71698113% 4.71698113%;
+        li {
+          h4 {
+            font-family: $headerFont;
+            margin-bottom: .94339623%;
+          }
+          h5 {
+            margin-top: 0;
+          }
+          ul {
+            list-style-type: square;
+          }
+        }
+      }
+    }
+
+article:nth-of-type(1) {
+  background-color: $cream;
+    h3 {
+      color: $green;
+    }
+}
+article:nth-of-type(2) {
+  background-color: $ochre;
+    h3 {
+      color: $turquoise;
+    }
+    ul {
+      padding-left:  10.3773585%;
+    }
+  }
+
+  }
+
+    footer {
+      text-align: center;
+    }
+}
