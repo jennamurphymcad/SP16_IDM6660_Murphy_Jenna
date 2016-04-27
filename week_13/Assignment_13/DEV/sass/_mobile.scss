@@ -26,7 +26,7 @@
 
        }
 
-       nav{
+       nav.nonJSnav {
         //  clear: both;
          text-align: center;
          margin: 0;
@@ -306,6 +306,7 @@ footer {
 
 //About Page Style//
 main#about section {
+
   text-align: center;
   width: 100%;
     h2 {
@@ -497,32 +498,35 @@ main#caseStudy {
 
   }
 
-  div {
-  clear: both;
-    figure img {
+    div {
       width: 100%;
+      height: 300px;
+      overflow: hidden;
+      figure img {
+        width: 100%;
+      }
     }
-  }
 
-}
+  }
 #img-grp-wrap {
 
+    // overflow : scroll;
+position: relative;
 
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+    // margin: 0 auto;
 }
 
 .img-wrap {
-clear: both;
+
     position: relative;
     border: 1px solid #CCC;
     width: 100%;
-    height: 100%;
+
 }
 
 .img-wrap img {
+
+
     width: 100%;
     position: absolute;
     top: 0;
