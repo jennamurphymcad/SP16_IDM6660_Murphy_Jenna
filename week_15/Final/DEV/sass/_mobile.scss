@@ -20,7 +20,7 @@
        #menu-btn {
          float: right;
          width: 15%;
-         padding-top: 3%;
+         padding-top: 1%;
          padding-right: 1%;
          max-width: 35px;
 
@@ -156,10 +156,11 @@
     background-image: url(../img/darkTextureBg.jpg);
     background-repeat: repeat-x;
 
+
     hgroup {
       float: left;
       // width: 80%;
-        // padding-left: 3%;
+        padding-left: 2%;
     }
     h1 {
 
@@ -168,7 +169,7 @@
       text-transform: uppercase;
       padding: 2.83018868% 0 0 0;
       margin: 0;
-      font-size: 1.8em;
+      font-size: 1.4em;
         }
 
     h2 {
@@ -176,10 +177,10 @@
 
       color: $cream;
       font-weight: 300;
-      padding: 0 0 2.83018868% 0;
+      padding: 0 0 3.83018868% 0;
       margin: 0;
       letter-spacing: 1.5px;
-      font-size: 1.2em;
+      font-size: .9em;
     }
 
   }
