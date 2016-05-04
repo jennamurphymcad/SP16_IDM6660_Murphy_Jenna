@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 		$( "#menu-btn" ).removeClass( "hidden" ).addClass( "expand" );
 
-		$("nav" ).removeClass("nonJSnav").addClass( "responsive-menu" );
+		$("nav").removeClass("nonJSnav");
 
 	$(window).scroll(function(){
 		if ($(this).scrollTop() > 300) {

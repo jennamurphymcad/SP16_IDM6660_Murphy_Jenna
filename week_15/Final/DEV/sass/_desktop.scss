@@ -8,6 +8,7 @@
       width: 960px;
       margin: 0 auto;
 
+
       hgroup {
         width: 30%;
       }
@@ -31,12 +32,13 @@
         // margin: 0 auto;
         // position: relative;
         // float: right;
+
          ul {
            padding-top: 4%;
            margin-left: 8%;
            float: right;
            width: 70%;
-           position: relative;
+
 
 
            li {
@@ -44,6 +46,8 @@
              margin: 0;
              padding: 5px;
              background-image: none;
+               position: relative;
+
 
              a {
               color: #FFF6E9;
@@ -73,15 +77,12 @@
        }
 
 
-
-
-
       nav.responsive-menu {
         clear: none;
         display: block;
         width: 70%;
         margin: 0 auto;
-          position: relative;
+
 
         // float: right;
          ul {
@@ -89,7 +90,6 @@
            margin-left: 8%;
            float: right;
            width: 70%;
-
            z-index: 1;
 
            li {
@@ -114,7 +114,7 @@
              }
               ul {
                     clear: both;
-                // max-width: 300px;
+                max-width: 300px;
                 display: none;
                 // position: absolute;
                 // left: 0;
@@ -134,13 +134,7 @@
         //    content: ""; clear: both; display: block;
         //  }
        }
-       nav.responsive-menu ul li:hover ul {
-          // position: absolute;
-          // top: 3%;
-           display: block;
-           z-index: 99999999999;
 
-       }
 
        nav.responsive-menu li ul li {
          clear: both;
@@ -153,6 +147,15 @@
        }
 
 
+
+     }
+
+     nav.responsive-menu ul li:hover ul, nav.responsive-menu ul li:focus ul {
+        position: absolute;
+        top: 0;
+        // right: 390px;
+         display: block;
+        //  z-index: 99999999999;
 
      }
 
@@ -173,6 +176,7 @@
       padding-bottom: 5.20833333%;
       section {
         margin-top: -2.08333333%;
+
         figure {
 
           img {
