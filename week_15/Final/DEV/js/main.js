@@ -2,6 +2,8 @@ $(document).ready(function(){
 
 		$( "#menu-btn" ).removeClass( "hidden" ).addClass( "expand" );
 
+		$( "#img-grp-wrap" ).removeClass( "hidden" ).addClass( "expandSlider" );
+
 		$("nav").removeClass("nonJSnav");
 
 	$(window).scroll(function(){

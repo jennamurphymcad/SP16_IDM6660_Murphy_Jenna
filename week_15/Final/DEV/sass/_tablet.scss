@@ -254,16 +254,19 @@ padding-left: 10.3773585%;
           a {
             display: block;
             background-color: $gold;
-            padding: 4.83018868%;
+            padding: 3.83018868%;
             font-size: 1.3em;
             color: $cream;
             font-weight: 300;
             text-align: center;
             text-decoration: none;
-            margin-bottom: 6.1509434%;
+
+            max-width: 70%;
+            margin: 0 auto;
           }
         }
         article {
+          margin-top: 6.1509434%;
           p {
             margin: 0;
             padding:  7px  25px;
@@ -274,7 +277,7 @@ padding-left: 10.3773585%;
             text-align: left;
             float: left;
             list-style: none;
-            h4 {
+            h5 {
               color: $pink;
               font-style: italic;
               font-size: 1.3em;
@@ -285,7 +288,8 @@ padding-left: 10.3773585%;
 
         div {
           width: 100%;
-          height: 400px;
+          height: 500px;
+          // height: 100%;
           overflow: hidden;
           figure img {
             width: 100%;
