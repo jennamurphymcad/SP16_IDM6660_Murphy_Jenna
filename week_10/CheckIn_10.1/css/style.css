@@ -215,8 +215,11 @@ header h2, .inner h2, #myContainer h2 {
   font-family: "Comfortaa", cursive;
   color: #363636; }
 
+h2.inner {
+  padding-top: 200px; }
+
 header {
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #363636; }
   header nav h1 {
     color: #FFF; }
@@ -430,5 +433,12 @@ figcaption {
 
 .active {
   color: #FFF; }
+
+canvas {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
 
 /*# sourceMappingURL=style.css.map */
