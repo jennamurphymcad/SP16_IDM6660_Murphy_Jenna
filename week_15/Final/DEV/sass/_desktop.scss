@@ -7,6 +7,8 @@
       overflow:hidden;
       width: 960px;
       margin: 0 auto;
+      padding-top: 1.5%;
+      padding-bottom: 1.5%;
 
 
       hgroup {
@@ -38,8 +40,9 @@
          ul {
            padding-top: 4%;
            margin-left: 10%;
+          //  padding-left: 10%;
            float: right;
-           width: 70%;
+           width: 60%;
           //  position: relative;
 
 
@@ -88,6 +91,8 @@
         margin: 0 auto;
 
 
+
+
         // float: right;
          ul {
            padding-top: 4%;
@@ -106,6 +111,7 @@
              a {
               color: #FFF6E9;
               font-weight: 300;
+              padding: 6%;
               // margin-right: 30px;
               // display: inline-block;
              }
@@ -429,6 +435,7 @@ main#caseStudy {
       padding: 2% 5%;
       margin-right: 18%;
       margin-top: 6%;
+      margin-bottom: 2%;
       text-align: center;
     }
   }
@@ -451,9 +458,10 @@ main#caseStudy {
     }
     aside {
       padding: 0;
-      margin-top: -530px;
+      margin-top: -150px;
       float: right;
       width: 29%;
+      margin-bottom: 2%;
 
     }
 
